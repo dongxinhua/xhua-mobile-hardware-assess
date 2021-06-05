@@ -11,3 +11,8 @@ export const changeIsFLoginAction = () => {
     type: actionTypes.CHANGE_ISFLOGIN
   }
 }
+
+export const changeUserInfoAction = (userInfo) => ({
+  type: actionTypes.CHANGE_USER_INFO,
+  userInfo
+})  

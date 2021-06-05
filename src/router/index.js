@@ -8,6 +8,11 @@ const XHContrast = lazy(() => import("@/pages/contrast"));
 const XHMine = lazy(() => import("@/pages/mine"));
 const XHAbout = lazy(() => import("@/pages/about"));
 const XHLogin = lazy(() => import("@/pages/login"));
+const XHInfo = lazy(() => import("@/pages/mine/c-pages/info"));
+const XHInfoChange = lazy(() => import("@/pages/mine/c-pages/info-change"));
+const XHDataConcrol = lazy(() => import("@/pages/mine/c-pages/data-control"));
+const XHEmpower = lazy(() => import("@/pages/mine/c-pages/empower"));
+const XHDetail = lazy(() => import("@/pages/detail"));
 
 const routes = [
   {
@@ -31,7 +36,26 @@ const routes = [
   },
   {
     path: "/mine",
-    component: XHMine
+    component: XHMine,
+    routes: [
+      {
+        path: "/mine",
+        exact: true,
+        component: XHInfo
+      },
+      {
+        path: "/mine/infochange",
+        component: XHInfoChange
+      },
+      {
+        path: "/mine/dataManage",
+        component: XHDataConcrol
+      },
+      {
+        path: "/mine/empower",
+        component: XHEmpower
+      }
+    ]
   },
   {
     path: "/about",
@@ -41,7 +65,10 @@ const routes = [
     path: "/login",
     component: XHLogin
   },
-
+  {
+    path: "/detail/:id",
+    component: XHDetail
+  }
 ];
 
 export default routes;

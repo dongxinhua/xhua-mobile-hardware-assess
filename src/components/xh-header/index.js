@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { xh_top_bar } from "@/common/local-data.js";
 import { changeIsFLoginAction } from "@/pages/login/store/actionCreators.js"
 
-import { Popover, Button } from "antd";
+import { Popover, Button, message } from "antd";
 import { NavLink, withRouter } from 'react-router-dom'
 import {
   XHHeaderWrapper,
@@ -32,6 +32,7 @@ function XHHeader(props) {
     // 退出登录
     localStorage.removeItem("userInfo");
     props.history.push("/login");
+    message.success("退出成功");
     dispatch(changeIsFLoginAction());
   }
 

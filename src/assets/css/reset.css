@@ -80,3 +80,7 @@ body, textarea, select, input, button {
 .site-layout-background {
   background: #fff;
 }
+
+.ant-modal-footer>.ant-btn:first-child {
+  display: none;
+}

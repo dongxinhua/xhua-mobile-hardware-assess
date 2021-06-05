@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const RecommendWrapper = styled.div`
   width: 100%;
   min-width: 1440px;
-  margin: 10px 0;
+  margin: 26px 0;
   .carousel {
     /* width: 1100px; */
     height: 340px;

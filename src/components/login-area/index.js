@@ -1,9 +1,9 @@
 import React, { memo } from 'react';
-import { shallowEqual, useDispatch, useSelector } from 'react-redux';
+import {  useDispatch } from 'react-redux';
 
 import * as rules from "@/common/constants.js";
 import { login } from '../../services/user';
-import { changeIsLoginAction } from "@/pages/login/store/actionCreators.js"
+import { changeIsLoginAction, changeUserInfoAction } from "@/pages/login/store/actionCreators.js"
 
 import { Form, Input, Button, message } from 'antd';
 import { withRouter } from 'react-router';
@@ -12,10 +12,6 @@ import { LoginArea } from "./style";
 const XHLoginArea = (props) => {
 
   const dispatch = useDispatch();
-  const { isLogin } = useSelector(state => ({
-    isLogin: state.getIn(["login", "isLogin"])
-  }), shallowEqual);
-
   const layout = {
     labelCol: { span: 4 },
     wrapperCol: { span: 16 },
@@ -40,14 +36,17 @@ const XHLoginArea = (props) => {
         message.success(res.message);
         // 登录成功做一系列操作，比如跳转到首页，将用户数据存储到localStorage
         // 存储 localStorage
-        const { username, nickname, rank, id } = res;
+        const { username, nickname, rank, id, sex, age } = res;
         const userInfo = {
           username,
           nickname,
           rank,
-          id
+          id,
+          sex,
+          age
         }
         localStorage.setItem("userInfo", JSON.stringify(userInfo));
+        dispatch(changeUserInfoAction(userInfo));
         // 跳转页面
         props.history.push("/recommend");
         dispatch(changeIsLoginAction());

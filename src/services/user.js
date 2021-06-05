@@ -16,35 +16,66 @@ export const register = (options) => {
   })
 }
 
-export const getTopBanners = () => {
+export const changeUserInfo = (userInfo) => {
   return request({
-    url: "/banner"
+    url: "/infoChange",
+    method: "POST",
+    data: userInfo
   })
 }
 
-export const getHotRecommends = (limit) => {
+export const getFuncList = (rank) => {
   return request({
-    url: "/personalized",
-    params: {
-      limit
-    }
+    url: "/getFuncList",
+    method: "GET",
+    params: { rank }
   })
 }
 
-export const getNewAlbums = (limit) => {
+export const getAllUsers = () => {
   return request({
-    url: "/top/album",
-    params: {
-      limit
-    }
+    url: "/allUsers",
+    method: "GET"
   })
 }
 
-export const getTopList = (idx) => {
+export const empower = (username) => {
   return request({
-    url: "/top/list",
-    params: {
-      idx
-    }
+    url: "/empower",
+    method: "GET",
+    params: { username }
   })
 }
+
+// export const getTopBanners = () => {
+//   return request({
+//     url: "/banner"
+//   })
+// }
+
+// export const getHotRecommends = (limit) => {
+//   return request({
+//     url: "/personalized",
+//     params: {
+//       limit
+//     }
+//   })
+// }
+
+// export const getNewAlbums = (limit) => {
+//   return request({
+//     url: "/top/album",
+//     params: {
+//       limit
+//     }
+//   })
+// }
+
+// export const getTopList = (idx) => {
+//   return request({
+//     url: "/top/list",
+//     params: {
+//       idx
+//     }
+//   })
+// }
