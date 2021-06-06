@@ -26,4 +26,16 @@ export const MineWrapper = styled.div`
     margin-bottom: 26px;
     background: #fff;
   }
+
+  .login {
+    height: 596px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    background: #fff;
+
+    .tips {
+      padding: 50px 40px; 
+      font-size: 24px;
+    }
+  }
 `

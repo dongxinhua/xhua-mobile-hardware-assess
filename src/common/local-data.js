@@ -403,7 +403,7 @@ export const textdata6 = {
   ]
 }
 
-export const textdata = {
+export const textdata7 = {
   title: "华为已捐赠鸿蒙最核心基础架构",
   time: "2021-06-03 10:49:14",
   content: [
@@ -454,6 +454,195 @@ export const textdata = {
     }
   ]
 }
+
+export const textdata8 = {
+  title: "骁龙888再见！SM8450要来了：4nm工艺、性能飞跃",
+  flag: 7,
+  imgUrl: "http://img.antutu.com/20210604/20210604093917_88957.png",
+  time: "2021-06-04 09:38:53",
+  content: [
+    {
+      id: 0,
+      type: "text",
+      text: "前段时间，有外媒爆料高通正在研发一款SM8450的芯片，将是骁龙888真正的迭代更新。"
+    },
+    {
+      id: 1,
+      type: "text",
+      text: "具体来说，骁龙888的代号为SM8350，因此从代号来看，SM8450应该是继任者，代号为Waipio，商用名暂定为“骁龙895”。"
+    },
+    {
+      id: 2,
+      type: "text",
+      text: "Waipio是夏威夷大岛北侧的怀皮奥山谷的名称，而骁龙888的研发代号是Lahaina，这都延续了高通采用夏威夷地名的习惯。"
+    },
+    {
+      id: 3,
+      type: "img",
+      url: "http://img.antutu.com/20210604/20210604093917_88957.png"
+    },
+    {
+      id: 4,
+      type: "text",
+      text: "来自爆料人士@evleaks公布的最新消息，SM8450采用4nm工艺打造，集成了Snapdragon X65 5G调制解调器，有着高达1GHz 毫米波下行和400MHz Sub-6 D速率。"
+    },
+    {
+      id: 5,
+      type: "text",
+      text: "CPU方面基于全新的Cortex-v9的Kryo 780，GPU集成Adreno 730，对比骁龙888的参数，SM8450理论上有着相当大的性能提升。"
+    },
+    {
+      id: 6,
+      type: "text",
+      text: "同时DSP从Spectra 580升级到Spectra 680，FastConnect 6900子系统将支持蓝牙LE Audio/5.2和 Wi-Fi 6E。"
+    },
+    {
+      id: 7,
+      type: "text",
+      text: "此外，SM8450拥有Spectra 680 ISP，支持四通道PoP LPDDR5内存，支持高通Aqstic WCD9380/WCD9385音频编解码。"
+    },
+    {
+      id: 8,
+      type: "img",
+      url: "http://img.antutu.com/20210604/20210604093929_43143.jpg"
+    },
+    {
+      id: 9,
+      type: "text",
+      text: "代工方面，目前尚不能确定是三星还是台积电，存在两种说法，不过之前有曝光的流片地点是韩国，难道还是三星？让子弹飞一会。"
+    },
+    {
+      id: 10,
+      type: "text",
+      text: "另外此前的SM8450测试机出现了“Leica1”的内部名，猜测徕卡有望参与骁龙895的影像调教工作。"
+    },
+    {
+      id: 10,
+      type: "text",
+      text: "不过需要注意的是，在SM8450推出之前，高通可能先推出骁龙888 Pro（暂命名），属于骁龙888的提频版，其中X1大核从2.84GHz提高到3.0GHz，成为下半年旗舰手机标配。"
+    }
+  ]
+}
+
+
+export const textdata9 = {
+  title: "华为用上骁龙870 那麒麟怎么办？",
+  flag: 8,
+  imgUrl: "http://img.antutu.com/20210601/20210601110855_12165.jpg",
+  time: "2021-06-01 11:08:48",
+  content: [
+    {
+      id: 0,
+      type: "text",
+      text: "今天早上有博主爆料，华为将于明天发布的全新平板电脑产品MatePad Pro将会搭载高通今年的旗舰处理器骁龙870，而系统方面则会出厂预装鸿蒙OS系统。"
+    },
+    {
+      id: 1,
+      type: "text",
+      text: "这对于华为的产品来说其实是个不小的信号，首先因为禁令的原因，华为面临着没有5G芯片可用的问题，而现在麒麟系列的芯片新品也眼看着是遥遥无期，这就需要找一个替代品，所以目前安卓端最强的高通自然就入选了。"
+    },
+    {
+      id: 2,
+      type: "text",
+      text: "但遗憾的是这颗骁龙870芯片依旧是不支持5G网络的，在这种前提下，鸿蒙OS还在努力的和高通平台的芯片进行适配，可以说华为已经在想尽一切办法来保持新品的发布了。"
+    },
+    {
+      id: 3,
+      type: "text",
+      text: "这可能也是为什么华为的骁龙870产品是一款平板电脑而不是手机了，因为对于这类产品来讲它的通信需求并不高，wifi是最实用的场景，只要保证性能就可以，网络什么的可以暂时忽略，不过或许有一天，高通旗舰处理器也真的能在华为手机上首发也说不定。"
+    },
+    {
+      id: 4,
+      type: "img",
+      url: "http://img.antutu.com/20210601/20210601110855_12165.jpg"
+    }
+  ]
+}
+
+export const textdata10 = {
+  title: "高通骁龙778G发布 台积电6nm工艺/荣耀确定使用",
+  flag: 9,
+  imgUrl: "http://img.antutu.com/20210519/20210519225224_76054.png",
+  time: "2021-05-19 23:00:00",
+  content: [
+    {
+      id: 0,
+      type: "text",
+      text: "5月19日晚，高通官方宣布，旗下的骁龙778G移动平台正式发布，其采用了台积电6nm工艺打造，强调“极致多媒体体验”，官方称其实现了“三项全能”。"
+    },
+    {
+      id: 1,
+      type: "img",
+      url: "http://img.antutu.com/20210519/20210519225224_76054.png"
+    },
+    {
+      id: 2,
+      type: "text",
+      text: "规格方面，骁龙778G采用了八核心Kryo 670架构设计，最高主频为2.4GHz，CPU性能号称相比上一代产品提升了40%。GPU则是Adreno 642L，性能提升同样达到了40%。"
+    },
+    {
+      id: 3,
+      type: "img",
+      url: "http://img.antutu.com/20210519/20210519225231_25599.png"
+    },
+    {
+      id: 4,
+      type: "text",
+      text: "AI性能方面，骁龙778G搭载了第六代高通AI引擎（Hexagon 770处理器），理论算力高达12TOPS，性能号称相比上代产品翻了一番。"
+    },
+    {
+      id: 5,
+      type: "img",
+      url: "http://img.antutu.com/20210519/20210519225238_23361.jpg"
+    },
+    {
+      id: 6,
+      type: "text",
+      text: "影像系统方面，骁龙778G搭载的是Spectra 570L ISP，这款ISP采用了三核心设计，可同时拍摄三张照片或三个视频，包括广角、超广角和变焦，此外还支持拍摄4K HDR10+视频。"
+    },
+    {
+      id: 7,
+      type: "text",
+      text: "基带方面，骁龙778G集成了骁龙X53 5G基带，支持毫米波以及Sub-6GHz频段的5G网络，同样也支持NSA/SA双模。"
+    },
+    {
+      id: 8,
+      type: "text",
+      text: "Wi-Fi网络方面，通过搭配的FastConnect 6700移动连接系统，骁龙778G实现了对Wi-Fi 6/6E的支持，峰值速率可达2.9Gbps，同时还支持4K QAM、160MHz信道等特性，至于蓝牙5.2自然也少不了。"
+    },
+    {
+      id: 9,
+      type: "img",
+      url: "http://img.antutu.com/20210519/20210519225253_68446.jpg"
+    },
+    {
+      id: 10,
+      type: "text",
+      text: "软件方面，骁龙778G支持部分高通Snapdragon Elite Gaming特性，包括可变分辨率渲染（VRS）和高通Game Quick Touch，前者能够让开发者能够在不同的游戏场景中指定和分组被着色的像素，以减少GPU的工作负载，从而在保持画面最高的视觉逼真度的同时降低功耗。"
+    },
+    {
+      id: 11,
+      type: "text",
+      text: "而Game Quick Touch则能将触控响应速度提升20%，降低触控时延的同时，带来专业级游戏体验。"
+    },
+    {
+      id: 12,
+      type: "img",
+      url: "http://img.antutu.com/20210519/20210519225301_52956.jpg"
+    },
+    {
+      id: 13,
+      type: "text",
+      text: "搭载骁龙778G的商用终端预计将于2021年第二季度面市，包括荣耀、iQOO、Motorola、OPPO、realme和小米都已经确定会推出相关机型。"
+    },
+    {
+      id: 14,
+      type: "text",
+      text: "结合此前的传闻来看，即将发布的荣耀50系列很有可能会成为骁龙778G的首发机型。"
+    },
+  ]
+}
+
 
 export const recommendCarouselData = [
   {

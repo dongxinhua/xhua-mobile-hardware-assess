@@ -23,9 +23,11 @@ function XHMine(props) {
 
   useEffect(() => {
     const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-    getFuncList(userInfo.rank).then(res => {
-      setList(res.data);
-    })
+    if (userInfo) {
+      getFuncList(userInfo.rank).then(res => {
+        setList(res.data);
+      })
+    }
   }, [])
 
   const handelClick = (num) => {
@@ -59,7 +61,13 @@ function XHMine(props) {
             }
           </div>
         </div>
-      ) : <h2 className="content wrap-v1">请登录</h2>}
+      ) : (
+        <div className="login wrap-v1">
+          <div className="tips">
+            没有登录不能查看相关内容，请先右上角进行登录哦~
+          </div>
+        </div>
+      )}
 
     </MineWrapper>
   )

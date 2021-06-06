@@ -16,6 +16,15 @@ export const DetailWrapper = styled.div`
       .time {
         color: #ccc;
       }
+
+      .back {
+        margin-bottom: 8px;
+        font-size: 14px;
+        cursor: pointer;
+        color: #ccc;
+        position: relative;
+        right: 22px;
+      }
     }
 
     .main {

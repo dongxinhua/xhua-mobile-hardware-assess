@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-  height: 560px;
+  height: 624px;
   min-width: 1440px;
 
   .content {
     margin-top: 20px;
     background-color: #fff;
-    height: 540px;
+    height: 600px;
 
     .introduce {
       font-size: 18px;

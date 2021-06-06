@@ -17,6 +17,10 @@ export default memo(function XHDetail(props) {
     // setFlag(flag);
   }, [props.match.params.id]);
 
+  const back = () => {
+    props.history.push("/recommend");
+  }
+
   // useEffect(() => {
   //   getInformation(flag).then(res => {
   //     setInfoContent(res.data);
@@ -27,6 +31,7 @@ export default memo(function XHDetail(props) {
     <DetailWrapper>
       <div className="content wrap-v1">
         <div className="header">
+          <div className="back" onClick={e => back()}>{`< 返回`}</div>
           <div className="title">{infoContent.title}</div>
           <div className="time">{infoContent.time}</div>
         </div>

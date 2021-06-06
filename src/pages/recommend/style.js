@@ -38,4 +38,15 @@ export const RecommendWrapper = styled.div`
       transform: translateY(-50%);
     }
   }
+
+  .list {
+    margin-top: 26px;
+    padding: 26px 10px;
+    background-color: #fff;
+
+    .info {
+      font-size: 22px;
+      padding: 0 22px;
+    }
+  }
 `

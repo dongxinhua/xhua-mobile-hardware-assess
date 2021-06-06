@@ -8,3 +8,10 @@ export const getInformation = (flag) => {
   })
 }
 
+export const getInformationList = () => {
+  return request({
+    url: "/getInformationList",
+    method: "GET"
+  })
+}
+
