@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import bg5 from "@/assets/img/bg9.jpg";
+
 export const MineWrapper = styled.div`
   margin-bottom: 26px;
   .header {
@@ -24,7 +26,9 @@ export const MineWrapper = styled.div`
   .content {
     margin-top: 26px;
     margin-bottom: 26px;
-    background: #fff;
+    /* padding: 20px 0;  */
+    /* background: #fff; */
+    background: url(${bg5}) repeat-x;
   }
 
   .login {

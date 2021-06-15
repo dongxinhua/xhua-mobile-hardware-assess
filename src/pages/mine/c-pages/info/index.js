@@ -14,19 +14,19 @@ export default memo(function XHInfo() {
   return (
     <InfoWrapper>
       <div className="content">
-        <div style={{ textAlign: "center" }}>基本信息展示</div>
+        <div style={{ textAlign: "center" }}>个人基本信息</div>
         <div className="info">
           <div className="info-item">
-            昵称: {userInfo.nickname}
+            昵 称: <span>{userInfo.nickname}</span>
           </div>
           <div className="info-item">
-            账号: {userInfo.username}
+            账 号: <span>{userInfo.username}</span>
           </div>
           <div className="info-item">
-            性别: {userInfo.sex == null ? null : (userInfo.sex === 0 ? "女" : "男")}
+            性 别: <span>{userInfo.sex == null ? null : (userInfo.sex === 0 ? "女" : "男")}</span>
           </div>
           <div className="info-item">
-            年龄: {userInfo.age}
+            年 龄: <span>{userInfo.age}</span>
           </div>
         </div>
       </div>

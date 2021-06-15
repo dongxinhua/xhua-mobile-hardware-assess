@@ -38,7 +38,7 @@ export default memo(function XHInfoChange(props) {
 
   const tailLayout = {
     wrapperCol: {
-      offset: 10,
+      offset: 12,
       span: 16,
     },
   };
